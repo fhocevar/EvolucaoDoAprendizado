@@ -53,6 +53,16 @@ Metodos de Strings - sabia que seria possível a segmentação desse tipo de inf
 Metodos de arrays - Não tinha conhecimento prévio sabia que existia mas não compreendia o seu uso técnico e pratico hoje percebo que é muito util para criar um conjunto de dados e a sua reutilização e granularidade
 Metodos de arrays II _ Não tinha conhecimento prévio sabia que existia mas não compreendia o seu uso técnico e pratico hoje percebo que é muito util para criar um conjunto de dados e a sua reutilização e granularidade mais simplificada
 Metodos de arrays III - Não tinha conhecimento prévio sabia que existia mas não compreendia o seu uso técnico e pratico hoje percebo que é muito util para criar um conjunto de dados e a sua reutilização e granularidade mais simplificada e otimizada
+Testes Automatizados - 
+Servidor API - 
+Rotas -
+Intermediarios -
+Controladores - 
+API Rest - 
+Orientação a Objetos - 
+Assincronismo Leitura e Escrita em arquivos - 
+Tratamento de erros com Herança e Polimorfismo - 
+
 Conteudo Carreira:
 Descrição: 
 
