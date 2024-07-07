@@ -56,8 +56,9 @@ Metodos de arrays III - Não tinha conhecimento prévio sabia que existia mas n�
 Testes Automatizados - Aprendi que através de ferramentas de automatização de testes simulados são possíveis através do Framework Jest conseguimos sem interação humana validar retornos e informações que quisermos manipular.
 Servidor API - Aprendi que consigo montar um servidor com algumas das ferramentas mais comuns como Express ou Fastify e expor uma porta para que a aplicação rode através de uma porta alta exclusiva utilizando 
 os verbos http GET, POST, PUT , DELETE
-Rotas -
-Intermediarios -
+Rotas - Aprendi que como o próprio nome diz são rotas definidas em um arquivo que redireciona para um controlador ou um intermediario de acordo com as definições criadas dessa forma segmentamos e controlamos 
+o fluxo interação das informações assim como a sua segurança.
+Intermediarios - Aprendi que os intermadiários definidas em um arquivo que redireciona para um controlador de acordo com as definições criadas dessa forma segmentamos e controlamos o fluxo interação das informações assim como a sua segurança.
 Controladores - 
 API Rest - 
 Orientação a Objetos - 
