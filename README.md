@@ -56,11 +56,11 @@ Metodos de arrays III - Não tinha conhecimento prévio sabia que existia mas n�
 Testes Automatizados - Aprendi que através de ferramentas de automatização de testes simulados são possíveis através do Framework Jest conseguimos sem interação humana validar retornos e informações que quisermos manipular.
 Servidor API - Aprendi que consigo montar um servidor com algumas das ferramentas mais comuns como Express ou Fastify e expor uma porta para que a aplicação rode através de uma porta alta exclusiva utilizando 
 os verbos http GET, POST, PUT , DELETE
-Rotas - Aprendi que como o próprio nome diz são rotas definidas em um arquivo que redireciona para um controlador ou um intermediario de acordo com as definições criadas dessa forma segmentamos e controlamos 
+Rotas - Aprendi que como o próprio nome diz são rotas (routers) definidas em um arquivo que redireciona para um controlador ou um intermediario de acordo com as definições criadas dessa forma segmentamos e controlamos 
 o fluxo interação das informações assim como a sua segurança.
-Intermediarios - Aprendi que os intermadiários definidas em um arquivo que redireciona para um controlador de acordo com as definições criadas dessa forma segmentamos e controlamos o fluxo interação das informações assim como a sua segurança.
-Controladores - 
-API Rest - 
+Intermediarios - Aprendi que os intermadiários (middlewares) definidas em um arquivo que redireciona para um controlador de acordo com as definições criadas dessa forma segmentamos e controlamos o fluxo interação das informações assim como a sua segurança.
+Controladores - Aprendi que de fato nos controladores as requisições dos usuários e clientes, intermediarios e das rotas são processadas e retornadas aos usuários.
+API Rest - Trata-se de uma convenção uniforme para facilitar o entendimento dos seus utilizadoes mantendo assim um padrão universal para que diferentes sistemas se comuniquem e compartilhem as suas informações entre si.
 Orientação a Objetos - 
 Assincronismo Leitura e Escrita em arquivos - 
 Tratamento de erros com Herança e Polimorfismo - 
