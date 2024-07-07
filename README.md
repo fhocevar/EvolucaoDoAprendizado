@@ -53,7 +53,7 @@ Metodos de Strings - sabia que seria possível a segmentação desse tipo de inf
 Metodos de arrays - Não tinha conhecimento prévio sabia que existia mas não compreendia o seu uso técnico e pratico hoje percebo que é muito util para criar um conjunto de dados e a sua reutilização e granularidade
 Metodos de arrays II _ Não tinha conhecimento prévio sabia que existia mas não compreendia o seu uso técnico e pratico hoje percebo que é muito util para criar um conjunto de dados e a sua reutilização e granularidade mais simplificada
 Metodos de arrays III - Não tinha conhecimento prévio sabia que existia mas não compreendia o seu uso técnico e pratico hoje percebo que é muito util para criar um conjunto de dados e a sua reutilização e granularidade mais simplificada e otimizada
-Testes Automatizados - 
+Testes Automatizados - Aprendi que através de ferramentas de automatização de testes simulados são possíveis através do Framework Jest conseguimos sem interação humana validar retornos e informações que quisermos manipular.
 Servidor API - 
 Rotas -
 Intermediarios -
