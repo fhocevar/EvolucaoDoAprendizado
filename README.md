@@ -61,7 +61,7 @@ o fluxo interação das informações assim como a sua segurança.
 Intermediarios - Aprendi que os intermadiários (middlewares) definidas em um arquivo que redireciona para um controlador de acordo com as definições criadas dessa forma segmentamos e controlamos o fluxo interação das informações assim como a sua segurança.
 Controladores - Aprendi que de fato nos controladores as requisições dos usuários e clientes, intermediarios e das rotas são processadas e retornadas aos usuários.
 API Rest - Trata-se de uma convenção uniforme para facilitar o entendimento dos seus utilizadoes mantendo assim um padrão universal para que diferentes sistemas se comuniquem e compartilhem as suas informações entre si.
-Orientação a Objetos - 
+Orientação a Objetos - Aprendi que o conceito de orientação a objetos esta relacionado a agilidade de desenvolvimento e ao conceito de reaproveitamento do código sem precisar reescrever o mesmo pedaço de código em diferentes partes usando assim um objeto que com as suas propriedades como polimorfismo encapsulamento e herança sejam melhores reutilizados.
 Assincronismo Leitura e Escrita em arquivos - 
 Tratamento de erros com Herança e Polimorfismo - 
 
