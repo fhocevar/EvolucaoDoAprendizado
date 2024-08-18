@@ -74,6 +74,16 @@ Orientação a Objetos - Aprendi que o conceito de orientação a objetos esta r
 Assincronismo Leitura e Escrita em arquivos - Aprendi que a partir de métdos como .readFileSync ou .writeFileSync contidos na biblioteca FS (file System) conseguimos ler manipular ou escrever informações em arquivos que desejarmos. Também compreendi que apesar de ser controversa a opção de assincronismo em meu conceito individual a opção assíncrona melhora a performance e não trava a aplicação pois esta opção por motivos terceitos ela é executada e dependente de outros recursos logo o algoritmo nativo decide a sua execução e pode seguir com os próximos passos da aplicação, ou seja uma melhor prática de adoção.
 Tratamento de erros com Herança e Polimorfismo - Entendi que tratamento de erros é uma solução elegante que pode contornar uma situação inesperada ou um comportamento inadequado por um usuário ou sistema endereçando uma mensagem mais amigável ao usuário do sistema evitando uma instabilidade da aplicação ou mesmo a quebra da mesma, com esse recurso TRY Catch Throw somos capazes de tratar uma mensagem derro amigável e não com códigos técnicos confusos para um usuário comum.
 
+git e fluxo de trabalho em equipe 
+integração de api de terceiros
+autenticação e criptografia
+conexão Node.js com Postgres
+Agrupamento e relacionamento de tabelas
+CRUD SQL
+Modelagem de dados
+Consultas SQL
+Docker e Docker Composer
+
 Conteudo Carreira:
 Descrição: 
 
