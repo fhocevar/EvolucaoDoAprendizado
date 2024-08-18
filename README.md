@@ -130,10 +130,15 @@ Agrupamento e relacionamento de tabelas - Aprendemos que o agrupamento e o relac
 Agrupamento de Dados em PostgreSQL
 O agrupamento de dados é uma técnica usada para consolidar e resumir dados com base em um ou mais critérios. No PostgreSQL, você pode realizar agrupamento de dados usando a cláusula GROUP BY em suas consultas SQL. Além disso, funções de agregação são frequentemente usadas em conjunto com o GROUP BY para calcular resumos estatísticos, como somas, médias e contagens.
 
-CRUD SQL - 
-Modelagem de dados - 
-Consultas SQL -
-Docker e Docker Composer -
+CRUD SQL - CRUD é um acrônimo que se refere às quatro operações básicas para manipulação de dados em um banco de dados. Em SQL (Structured Query Language), essas operações são usadas para criar, ler, atualizar e excluir registros em uma tabela.
+CREATE e (insert into) SELECT UPDATE DROP em suma fazem o descrito anteriormente.
+
+Modelagem de dados - A modelagem de dados é uma parte crítica do design de banco de dados e envolve a criação de representações conceituais, lógicas e físicas dos dados. Usando a abstração e as regras de negócio que o entrevistador se reune com o conhecedor do negócio a fim de identificar os processos as entidades e os atributos identificadores da informação. Um bom modelo de dados garante que a estrutura do banco de dados seja eficiente, escalável e atenda aos requisitos dos usuários e do negócio. A prática e a compreensão dos conceitos de modelagem de dados ajudam a criar sistemas de banco de dados robustos e eficazes.
+
+Consultas SQL - Consultas SQL são instruções utilizadas para interagir com bancos de dados relacionais. Elas permitem que você busque, insira, atualize e exclua dados em tabelas de um banco de dados.
+Uma boa consulta á banco é definida com boas práticas assumindo pegue ou busque o que você precisa desta forma os processos o sistema e negócio são menos impactados e funcionam de maneira mais eficaz.
+
+Docker e Docker Composer - Aprendemos que com o Docker conseguimos emular e isolar ambientes de desenvolvimento sem necessariamente de precisar subir e escalar ambientes e depender de administradores ou infra estruturas extras com simples comandos subimos ambientes virtuais e com o composer podemos configurar um template padronizado.
 
 Conteudo Carreira:
 Descrição: 
