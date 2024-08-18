@@ -74,15 +74,63 @@ Orientação a Objetos - Aprendi que o conceito de orientação a objetos esta r
 Assincronismo Leitura e Escrita em arquivos - Aprendi que a partir de métdos como .readFileSync ou .writeFileSync contidos na biblioteca FS (file System) conseguimos ler manipular ou escrever informações em arquivos que desejarmos. Também compreendi que apesar de ser controversa a opção de assincronismo em meu conceito individual a opção assíncrona melhora a performance e não trava a aplicação pois esta opção por motivos terceitos ela é executada e dependente de outros recursos logo o algoritmo nativo decide a sua execução e pode seguir com os próximos passos da aplicação, ou seja uma melhor prática de adoção.
 Tratamento de erros com Herança e Polimorfismo - Entendi que tratamento de erros é uma solução elegante que pode contornar uma situação inesperada ou um comportamento inadequado por um usuário ou sistema endereçando uma mensagem mais amigável ao usuário do sistema evitando uma instabilidade da aplicação ou mesmo a quebra da mesma, com esse recurso TRY Catch Throw somos capazes de tratar uma mensagem derro amigável e não com códigos técnicos confusos para um usuário comum.
 
-git e fluxo de trabalho em equipe 
-integração de api de terceiros
-autenticação e criptografia
-conexão Node.js com Postgres
-Agrupamento e relacionamento de tabelas
-CRUD SQL
-Modelagem de dados
-Consultas SQL
-Docker e Docker Composer
+git e fluxo de trabalho em equipe - Git é um sistema de controle de versão que permite o rastreamento de mudanças em arquivos e coordena o trabalho entre várias pessoas.
+conseguimos fazer o controle e versionamento do código compartilhado em um ou mais repositórios utilizando as suas variantes de comandos para sanar possíveis conflitos com camadas de aprovação e gestão de versionamento.
+git checkout criamos novas branches ou navegamos entre elas a fim de segmentar ambiemtes como homologação e desenvolvimento ou separar por áreas.
+git merge mescla de alterações de diferentes editores de código.
+git push atualiza o mais recente código e estrutura editada do local para o remoto
+git pull atualiza o mais recente código e estrutura editada do remota para o local
+git clone como o próprio nome menciona clonamos o repositório remoto de trabalho para trabalhar localmente
+Boas Práticas
+Commits Pequenos e Frequentes: Realizar commits pequenos e frequentes ajuda a rastrear mudanças e facilita a identificação de problemas.
+Mensagens de Commit Claras: Escreva mensagens de commit descritivas para que todos os membros da equipe entendam o propósito das mudanças.
+Revisão de Código: Faça revisões de código regulares para garantir a qualidade e consistência do código.
+Automatização de Testes: Utilize integração contínua (CI) para automatizar testes e builds, garantindo que o código esteja sempre em um estado funcional.
+
+integração de api de terceiros - Integrar uma API de terceiros é uma prática comum no desenvolvimento de software que permite que uma aplicação se conecte e interaja com serviços externos para aproveitar funcionalidades adicionais, como dados de usuários, pagamentos, ou serviços de geolocalização.
+
+autenticação e criptografia - A autenticação é o processo de verificar a identidade de um usuário. Em aplicações web, isso geralmente envolve a verificação de credenciais, como nomes de usuário e senhas.
+Autenticação Básica
+Usando o Express.js, você pode configurar rotas de autenticação e verificar credenciais. Para simplificação, considere o uso de JWT (JSON Web Tokens) para autenticação.
+Autenticação com Middleware: Proteje rotas usando um middleware que verifica a validade do token JWT.
+Biblioteca crypto do Node.js: Usada para operações de criptografia.
+Biblioteca bcrypt: Usada para hashing de senhas, uma prática recomendada para armazenar senhas de forma segura.
+
+conexão Node.js com Postgres - Primeiramente é necessário que o PostgreSQL esteja instalado e em execução em seu sistema. Você pode baixar e instalar o PostgreSQL a partir do site oficial.
+A biblioteca pg é uma interface cliente para PostgreSQL em Node.js basta instalar com o npm install pg
+Crie um Arquivo de Configuração (opcional) para facilitar as configurações a segmentação e segurança do projeto
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_NAME=your_database
+Instale o npm install dotenv para segmentar a configuracçao e ignorar configurações a serem enviadas
+linke um pool de conexões com o aruivo .env como descrito abaixo:
+const pool = new Pool({
+    host: process.env.DB_HOST,
+    port: parseInt(process.env.DB_PORT!, 10),
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME
+});
+utilize uma função assincrona "promessa" a fim de ser melhor gerenciada pela aplicação e banco de dados
+// Função para testar a conexão
+const testConnection = async () => {
+    try {
+        const client = await pool.connect();
+        console.log('Conexão bem-sucedida!');
+        client.release();
+    } catch (err) {
+        console.error('Erro ao conectar-se ao banco de dados', err);
+    }
+};
+testConnection();
+
+Agrupamento e relacionamento de tabelas - 
+CRUD SQL - 
+Modelagem de dados - 
+Consultas SQL -
+Docker e Docker Composer -
 
 Conteudo Carreira:
 Descrição: 
