@@ -126,7 +126,10 @@ const testConnection = async () => {
 };
 testConnection();
 
-Agrupamento e relacionamento de tabelas - 
+Agrupamento e relacionamento de tabelas - Aprendemos que o agrupamento e o relacionamento de tabelas são conceitos fundamentais no design e na consulta de bancos de dados relacionais, como o PostgreSQL. Eles ajudam a organizar dados de maneira eficiente e a realizar operações complexas de maneira eficaz. Técnicas utilizadas são identificadores unicos que o tornam chaves primarias e chaves estrangeiras que são compartilhadas com outras tabelas otimizam as pesquisas de um sistema assim como a sua armazenagem de acordo com a regra de negócios, utilizamos a modelagem de dados para que o agrupamento e o relacionamento sejam executados posteriormente.
+Agrupamento de Dados em PostgreSQL
+O agrupamento de dados é uma técnica usada para consolidar e resumir dados com base em um ou mais critérios. No PostgreSQL, você pode realizar agrupamento de dados usando a cláusula GROUP BY em suas consultas SQL. Além disso, funções de agregação são frequentemente usadas em conjunto com o GROUP BY para calcular resumos estatísticos, como somas, médias e contagens.
+
 CRUD SQL - 
 Modelagem de dados - 
 Consultas SQL -
