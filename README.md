@@ -1,5 +1,5 @@
 Descrição:
-Este repositório foi criado para o desafio de carreiras do módulo 02 e 03 para o curso de desenvolvimento de software da Cubos Academy.
+Este repositório foi criado para o desafio de carreiras do módulo 02, 03 e 04 para o curso de desenvolvimento de software da Cubos Academy.
 
 Progresso de desenvolvedor
 O propósito desta descrição é uma auto análise sobre a evolução dos conhecimentos teóricos e praticos do desenvolvimento de software.
