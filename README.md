@@ -20,6 +20,8 @@ Controladores
 API Rest
 Orientação a Objetos
 Assincronismo Leitura e Escrita em arquivos
+ORM
+NESTJS
 
 Carreira:
 Gestao de Tempo
@@ -139,6 +141,27 @@ Consultas SQL - Consultas SQL são instruções utilizadas para interagir com ba
 Uma boa consulta á banco é definida com boas práticas assumindo pegue ou busque o que você precisa desta forma os processos o sistema e negócio são menos impactados e funcionam de maneira mais eficaz.
 
 Docker e Docker Composer - Aprendemos que com o Docker conseguimos emular e isolar ambientes de desenvolvimento sem necessariamente de precisar subir e escalar ambientes e depender de administradores ou infra estruturas extras com simples comandos subimos ambientes virtuais e com o composer podemos configurar um template padronizado.
+
+ORM - Object-Relational Mapping (Mapeamento Objeto-Relacional), é uma técnica utilizada na programação para facilitar a interação entre sistemas orientados a objetos e bancos de dados relacionais. A ideia central do ORM é mapear as classes de um programa para as tabelas de um banco de dados e vice-versa, permitindo que você trabalhe com dados no banco de dados usando objetos, ao invés de escrever SQL diretamente.
+
+Principais conceitos e vantagens do ORM:
+
+Mapeamento entre Objetos e Tabelas: ORM cria uma camada intermediária entre a aplicação e o banco de dados. As classes do seu código (objetos) são mapeadas para tabelas do banco de dados. Por exemplo, uma classe Usuário pode ser mapeada para uma tabela usuarios.
+
+Abstração do SQL: Em vez de escrever consultas SQL manualmente, você usa métodos e propriedades dos objetos para realizar operações no banco de dados. Isso simplifica o código e reduz a probabilidade de erros.
+
+Automatização: ORM pode gerar automaticamente o código SQL necessário para realizar operações CRUD (Create, Read, Update, Delete). Isso acelera o desenvolvimento e facilita a manutenção do código.
+
+Gerenciamento de Conexões e Transações: Muitas ferramentas ORM gerenciam conexões com o banco de dados e transações, facilitando o trabalho com operações complexas e garantindo a integridade dos dados.
+
+Facilita a Evolução do Banco de Dados: Como as mudanças no banco de dados são tratadas através de atualizações nos modelos de objetos, é mais fácil refatorar e evoluir a estrutura do banco de dados.
+
+Portabilidade: Utilizando ORM, você pode mudar o banco de dados subjacente com menos impacto no código da aplicação, desde que o ORM suporte o novo banco de dados.
+
+Emora existam vários ORMs distintos no mercado pra diferentes ambientes escolhemos inicialmente um dos mais populares da atualidade disponíveis para o ambiente Java e Typescript, ou seja o prisma e aspirando o uso do type ORM.
+
+NESTJS - 
+
 
 Conteudo Carreira:
 Descrição: 
