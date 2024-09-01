@@ -160,7 +160,40 @@ Portabilidade: Utilizando ORM, você pode mudar o banco de dados subjacente com 
 
 Emora existam vários ORMs distintos no mercado pra diferentes ambientes escolhemos inicialmente um dos mais populares da atualidade disponíveis para o ambiente Java e Typescript, ou seja o prisma e aspirando o uso do type ORM.
 
-NESTJS - 
+NESTJS -  NestJS é um framework para desenvolvimento de aplicações backend em Node.js, construído com TypeScript e inspirado em conceitos do Angular, como injeção de dependência e modularidade. O NestJS visa fornecer uma arquitetura sólida e escalável para aplicações de servidor, tornando o desenvolvimento mais organizado e eficiente.
+
+Visão geral dos principais recursos e conceitos do NestJS:
+
+1. Arquitetura Modular
+Módulos: O NestJS utiliza uma abordagem modular, o que significa que a aplicação é dividida em módulos distintos. Cada módulo é responsável por uma parte específica da funcionalidade da aplicação. Isso promove uma melhor organização e facilita a manutenção e escalabilidade do código.
+
+Controladores e Serviços: Os módulos geralmente contêm controladores e serviços. Os controladores gerenciam as rotas e manipulam as requisições HTTP, enquanto os serviços contêm a lógica de negócios e são injetados nos controladores.
+
+2. Injeção de Dependência
+Injeção de Dependência (DI): O NestJS suporta injeção de dependência, o que permite que você defina e injete dependências em suas classes de forma automatizada. Isso ajuda a manter o código desacoplado e facilita a testabilidade e a reutilização de componentes.
+3. Baseado em Decoradores
+Decoradores: NestJS utiliza decoradores, que são uma forma de adicionar metadados às classes e propriedades. Eles são amplamente usados para definir rotas, injetar dependências e configurar comportamentos específicos. Por exemplo, @Controller() e @Injectable() são decoradores que definem controladores e serviços, respectivamente.
+4. Suporte a TypeScript
+TypeScript: NestJS é construído com TypeScript, que adiciona tipagem estática e recursos modernos ao JavaScript. Isso melhora a qualidade do código, a segurança e a manutenção, proporcionando uma melhor experiência de desenvolvimento.
+5. Integração com Bibliotecas e Frameworks
+Bibliotecas: O NestJS oferece suporte integrado para uma ampla gama de bibliotecas e frameworks, como TypeORM, Mongoose (para MongoDB), e outros. Isso facilita a integração com bancos de dados e outras ferramentas.
+
+Middleware e Guardas: O NestJS permite a utilização de middleware para processar requisições antes de serem manipuladas pelos controladores, e guardas para implementar lógica de autorização e proteção de rotas.
+
+6. Facilidade de Testes
+Testabilidade: O NestJS facilita a criação de testes unitários e de integração, utilizando a injeção de dependência e a modularidade para isolar componentes e testar seu comportamento de forma eficaz.
+7. Suporte a Microserviços e GraphQL
+Microserviços: O NestJS possui suporte nativo para arquiteturas de microserviços, permitindo a construção de aplicações distribuídas com facilidade.
+
+GraphQL: Também oferece suporte para a criação de APIs GraphQL, permitindo uma alternativa flexível e eficiente às APIs REST.
+
+Entendemos que com o nestCLI somos capazes de criar estruturas complaexas com simples comandos facilitando o desenvolvimento estrutural da aplicação :
+Exemplo :
+npm i -g @nestjs/cli (instalar o nest globalmente)
+nest generate module nomedomodulo
+nest generate controller nomedocontroller
+nest generate service nomedoservico
+nest generate resource nomedorecurso
 
 
 Conteudo Carreira:
