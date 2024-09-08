@@ -203,6 +203,10 @@ Para que isso seja necessário precisamos executar os seguintes passos :
 4 - Fazer o deploy
 5 - Testar a funcionalidade com o uso do postman ou insognia para testar as suas respectivas funcionalidades com o uso do GET POST UPDATE PATCH DELETE (CRUD)
 
+Envio automatizados de e-mail - Entendemos que os mais diversos cenários são necessários para o envio de e-mail automatizados para tal entendemos que em ambiente de desenvolvimento ou 
+mesmo de produção escolhemos ferramentas terceiras para tal como a MAILRAP configuramos um servidor SMTP .
+Instalamos e utilizamos algumas bibliotecas necessárias como NodeMailer.
+
 Conteudo Carreira:
 Descrição: 
 
