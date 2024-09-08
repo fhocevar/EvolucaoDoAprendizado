@@ -195,6 +195,13 @@ nest generate controller nomedocontroller
 nest generate service nomedoservico
 nest generate resource nomedorecurso
 
+Deploy - O processo de tornar uma aplicação disponível online 24/7 é essencial nos dias de hoje logo contamos com ferramentas distintas para disponibilizar a aplicação para os usuários.
+Para que isso seja necessário precisamos executar os seguintes passos :
+1 - Configurar o nosso repositório remoto (GITHUB)
+2 - Escolher um ambiemte público no nosso caso o "render" e criar o seu ambiente e suas credenciais. ( outros players como digital ocean , AWS, VERCELL)
+3 - Criação do banco de dados no nosso caso o Postgress mas poderia ser outro.
+4 - Fazer o deploy
+5 - Testar a funcionalidade com o uso do postman ou insognia para testar as suas respectivas funcionalidades com o uso do GET POST UPDATE PATCH DELETE (CRUD)
 
 Conteudo Carreira:
 Descrição: 
