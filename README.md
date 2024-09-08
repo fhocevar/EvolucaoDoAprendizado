@@ -22,6 +22,8 @@ Orientação a Objetos
 Assincronismo Leitura e Escrita em arquivos
 ORM
 NESTJS
+Deploy
+Envio automatizados de e-mail
 
 Carreira:
 Gestao de Tempo
