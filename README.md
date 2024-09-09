@@ -24,6 +24,7 @@ ORM
 NESTJS
 Deploy
 Envio automatizados de e-mail
+upload de arquivos
 
 Carreira:
 Gestao de Tempo
@@ -208,6 +209,8 @@ Para que isso seja necessário precisamos executar os seguintes passos :
 Envio automatizados de e-mail - Entendemos que os mais diversos cenários são necessários para o envio de e-mail automatizados para tal entendemos que em ambiente de desenvolvimento ou 
 mesmo de produção escolhemos ferramentas terceiras para tal como a MAILRAP configuramos um servidor SMTP .
 Instalamos e utilizamos algumas bibliotecas necessárias como NodeMailer.
+
+Upload de Arquivos - 
 
 Conteudo Carreira:
 Descrição: 
