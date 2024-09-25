@@ -211,6 +211,10 @@ Instalamos e utilizamos algumas bibliotecas necessárias como NodeMailer.
 
 Upload de Arquivos - Entendemos que uploads de arquivos são fundamentais em nosso dia a dia como boas praticas principalmente para a utilização de arquivos de fotos e imagens comummente usados em ambientes popularermente usados como o supabase e é necessária a utilização de uma biblioteca chamada MULTER do NODE.js que nos auxilia em sua utilização modularidade e granuralidade de acordo com a regra de negócios.
 
+Por ultimo entregamos um projeto uma API de ponto de venda chamada PDV-API com diversas funcionalidades no backend .
+
+Cadastro de usuarios , Produtos, Pedidos , Categorias , e diversas funcionalidades.
+
 Conteudo Carreira:
 Descrição: 
 
